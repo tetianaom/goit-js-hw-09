@@ -12,7 +12,32 @@ body {
   line-height: 1.5;
 }
 
+#datetime-picker {
+  padding: 8px;
+  max-width: 250px;
+}
+
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  padding: 8px;
+}
+
+.timer {
+  display: flex;
+  column-gap: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.timer .value {
+  font-size: 30px;
+}
+
+.field {
+  max-width: 60px;
+  text-align: center;
 }
